@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build_css": "tailwindcss src/style.css -o public/style.css"
+    "build_css": "tailwindcss -i ./src/style.css -o ./public/style.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.2",
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
     "tailwindcss": "^3.0.24"
   }
 }
