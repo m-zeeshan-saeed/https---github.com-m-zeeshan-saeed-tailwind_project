@@ -1,7 +1,18 @@
 module.exports = {
-  content: [],
+  content: ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#ff6363",
+        secondary: {
+          100: "#e2e2d5",
+          200: "#888883",
+        },
+      },
+      fontfamily: {
+        body: ["Lobster"],
+      },
+    },
   },
   plugins: [],
 };
